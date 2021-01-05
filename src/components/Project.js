@@ -22,7 +22,7 @@ export const Project = () => {
   }, []);
 
   return (
-    <main className="bg-green-100 min-h-screen p-12">
+    <main className="bg-blue-50  min-h-screen p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">
@@ -35,7 +35,7 @@ export const Project = () => {
                 key={index}
                 className="relative rounded-lg shadow-xl bg-white p-16"
               >
-                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-blue-700">
                   <a
                     href={project.link}
                     alt={project.title}
@@ -65,7 +65,7 @@ export const Project = () => {
                     href={project.link}
                     rel="noopener noreferrer"
                     target="_blank"
-                    className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
+                    className="text-blue-500 font-bold hover:underline hover:text-blue-400 text-xl"
                   >
                     View the project{" "}
                     <span role="img" aria-label="right pointer">

@@ -27,7 +27,7 @@ export const Post = () => {
   console.log(postData);
 
   return (
-    <main className="bg-green-100 min-h-screen pt-12">
+    <main className="bg-blue-50 min-h-screen pt-12">
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">
           Blog Posts Page
@@ -41,7 +41,7 @@ export const Post = () => {
               <article key={index}>
                 <Link to={`post/${post.slug.current}`} key={post.slug.current}>
                   <span
-                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400"
+                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-blue-800"
                     key={index}
                   >
                     <img
